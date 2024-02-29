@@ -36,6 +36,6 @@ from pygrabber.dshow_graph import FilterGraph
 from pywinauto.application import Application
 import pywinauto
 from pywinauto import Desktop
-from Worker import *
+from src.Worker import *
 import json
 from colorama import Fore, init, AnsiToWin32

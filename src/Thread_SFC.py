@@ -1,5 +1,5 @@
 from libs.libs import QThread, pyqtSignal, serial
-from utilities import config, logger, cmd_printer
+from src.utilities import config, logger, cmd_printer
 
 
 #!  SFC Class

@@ -9,7 +9,7 @@ def read_dmt_zxingcpp(frame):
 
 
 def read_dmt_pylibdmtx(frame):
-    data = decode(frame, timeout=50, max_count=1)
+    data = decode(frame, timeout=50)
     if data != []:
         data = data[0][0].decode("utf-8")
         print("data: ", data)
@@ -24,7 +24,7 @@ def read_dmt_loop(self, frame):
         if data_decoded:
             return data_decoded[0].text
         else:
-            data = decode(frame, timeout=50, max_count=1)
+            data = decode(frame, timeout=50)
             if data != []:
                 data = data[0][0].decode("utf-8")
                 print("data: ", data)

@@ -1,11 +1,10 @@
 from libs.libs import *
-from utilities import *
-from Thread_PLC import PLCThread
-from Thread_Camera import CameraThread
-from Thread_SFC import SFCThread
-from connect_mes import *
-from reader import *
-from UI_handler import *
+from src.utilities import *
+from src.Thread_PLC import PLCThread
+from src.Thread_Camera import CameraThread
+from src.Thread_SFC import SFCThread
+from src.reader import *
+from src.UI_handler import *
 
 
 class MyApplication(QMainWindow):

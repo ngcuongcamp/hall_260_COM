@@ -1,5 +1,5 @@
 from libs.libs import QThread, pyqtSignal, cv2, np
-from utilities import config, logger
+from src.utilities import config, logger
 
 
 #! Camera Class
