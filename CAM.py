@@ -197,7 +197,7 @@ class MyApplication(QMainWindow):
 
             # Close Camera and release
             if self.THREAD_CAMERA_1.isRunning():
-                self.THREAD_CAMERA_1.wait()
+                # self.THREAD_CAMERA_1.wait()
                 self.THREAD_CAMERA_1.cap.release()
             cv2.destroyAllWindows()
         else:

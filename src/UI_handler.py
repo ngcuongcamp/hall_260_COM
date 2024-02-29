@@ -8,6 +8,7 @@ def initial_UI_MainWindow(self):
     self.Uic = Ui_MainWindow()
     self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
     self.Uic.setupUi(self)
+    self.setWindowTitle("Scanner - Hall 260 CB738")
     self.setWindowIcon(QIcon("./icons/Logo.ico"))
     # set position window
     screen_geometry = QDesktopWidget().availableGeometry()
